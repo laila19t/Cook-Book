@@ -5,6 +5,7 @@ import Layout from './layout pages/Layout'
 import MyRecipes from './pages/MyRecipes'
 import SearchRecipes from './pages/SearchRecipes'
 import CookingTips from './pages/CookingTips'
+import Signup from './pages/Signup'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="recipes" element={<MyRecipes/>}/>
         <Route path="search" element={<SearchRecipes/>}/>
         <Route path="tips" element={<CookingTips/>}/>
+        <Route path="signup" element={<Signup/>}/>
       </Route>
     </Routes>
     </BrowserRouter>
