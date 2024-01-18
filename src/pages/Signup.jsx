@@ -7,7 +7,7 @@ export default function Signup(){
                 <div className="signup-img"></div>
         <div className="signup-form">
             <h3>Get started</h3>
-            <h4>already have an account? <Link to="/login">Sign in!</Link></h4>
+            <h4>Already have an account? <Link to="/login">Sign in!</Link></h4>
             <form className="inner-signup-form">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name"/>

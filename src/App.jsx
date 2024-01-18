@@ -6,6 +6,7 @@ import MyRecipes from './pages/MyRecipes'
 import SearchRecipes from './pages/SearchRecipes'
 import CookingTips from './pages/CookingTips'
 import Signup from './pages/Signup'
+import Login from './pages/Login'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="search" element={<SearchRecipes/>}/>
         <Route path="tips" element={<CookingTips/>}/>
         <Route path="signup" element={<Signup/>}/>
+        <Route path="login" element={<Login/>}/>
       </Route>
     </Routes>
     </BrowserRouter>
